@@ -10,6 +10,35 @@
 		A543F20620A4A28900352527 /* QuantumSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A543F1FC20A4A28900352527 /* QuantumSwift.framework */; };
 		A543F20B20A4A28900352527 /* QuantumSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A543F20A20A4A28900352527 /* QuantumSwiftTests.swift */; };
 		A543F20D20A4A28900352527 /* QuantumSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F1FF20A4A28900352527 /* QuantumSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A543F23720A4A3C700352527 /* experimental.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F21920A4A3C700352527 /* experimental.h */; };
+		A543F23820A4A3C700352527 /* traits.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F21A20A4A3C700352527 /* traits.h */; };
+		A543F23920A4A3C700352527 /* operations.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F21B20A4A3C700352527 /* operations.h */; };
+		A543F23A20A4A3C700352527 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F21C20A4A3C700352527 /* types.h */; };
+		A543F23B20A4A3C700352527 /* codes.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F21E20A4A3C700352527 /* codes.h */; };
+		A543F23C20A4A3C700352527 /* random_devices.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F21F20A4A3C700352527 /* random_devices.h */; };
+		A543F23D20A4A3C700352527 /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F22020A4A3C700352527 /* timer.h */; };
+		A543F23E20A4A3C700352527 /* idisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F22120A4A3C700352527 /* idisplay.h */; };
+		A543F23F20A4A3C700352527 /* states.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F22220A4A3C700352527 /* states.h */; };
+		A543F24020A4A3C700352527 /* init.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F22320A4A3C700352527 /* init.h */; };
+		A543F24120A4A3C700352527 /* exception.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F22420A4A3C700352527 /* exception.h */; };
+		A543F24220A4A3C700352527 /* gates.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F22520A4A3C700352527 /* gates.h */; };
+		A543F24320A4A3C700352527 /* qpp.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F22620A4A3C700352527 /* qpp.h */; };
+		A543F24420A4A3C700352527 /* input_output.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F22720A4A3C700352527 /* input_output.h */; };
+		A543F24520A4A3C700352527 /* number_theory.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F22820A4A3C700352527 /* number_theory.h */; };
+		A543F24620A4A3C700352527 /* iomanip.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F22B20A4A3C700352527 /* iomanip.h */; };
+		A543F24720A4A3C700352527 /* singleton.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F22C20A4A3C700352527 /* singleton.h */; };
+		A543F24820A4A3C700352527 /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F22D20A4A3C700352527 /* util.h */; };
+		A543F24920A4A3C700352527 /* constants.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F22E20A4A3C700352527 /* constants.h */; };
+		A543F24A20A4A3C700352527 /* entropies.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F22F20A4A3C700352527 /* entropies.h */; };
+		A543F24B20A4A3C700352527 /* instruments.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F23020A4A3C700352527 /* instruments.h */; };
+		A543F24C20A4A3C700352527 /* statistics.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F23120A4A3C700352527 /* statistics.h */; };
+		A543F24D20A4A3C700352527 /* matlab.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F23320A4A3C700352527 /* matlab.h */; };
+		A543F24E20A4A3C700352527 /* functions.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F23420A4A3C700352527 /* functions.h */; };
+		A543F24F20A4A3C700352527 /* entanglement.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F23520A4A3C700352527 /* entanglement.h */; };
+		A543F25020A4A3C700352527 /* random.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F23620A4A3C700352527 /* random.h */; };
+		A543F25B20A4DA5900352527 /* ObjCqpp.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F25920A4DA5900352527 /* ObjCqpp.h */; };
+		A543F25C20A4DA5900352527 /* ObjCqpp.mm in Sources */ = {isa = PBXBuildFile; fileRef = A543F25A20A4DA5900352527 /* ObjCqpp.mm */; };
+		A543F25D20A4DA5900352527 /* ObjCqpp.mm in Sources */ = {isa = PBXBuildFile; fileRef = A543F25A20A4DA5900352527 /* ObjCqpp.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +58,35 @@
 		A543F20520A4A28900352527 /* QuantumSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuantumSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A543F20A20A4A28900352527 /* QuantumSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumSwiftTests.swift; sourceTree = "<group>"; };
 		A543F20C20A4A28900352527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A543F21920A4A3C700352527 /* experimental.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = experimental.h; sourceTree = "<group>"; };
+		A543F21A20A4A3C700352527 /* traits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = traits.h; sourceTree = "<group>"; };
+		A543F21B20A4A3C700352527 /* operations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = operations.h; sourceTree = "<group>"; };
+		A543F21C20A4A3C700352527 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		A543F21E20A4A3C700352527 /* codes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codes.h; sourceTree = "<group>"; };
+		A543F21F20A4A3C700352527 /* random_devices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random_devices.h; sourceTree = "<group>"; };
+		A543F22020A4A3C700352527 /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
+		A543F22120A4A3C700352527 /* idisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idisplay.h; sourceTree = "<group>"; };
+		A543F22220A4A3C700352527 /* states.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = states.h; sourceTree = "<group>"; };
+		A543F22320A4A3C700352527 /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = init.h; sourceTree = "<group>"; };
+		A543F22420A4A3C700352527 /* exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exception.h; sourceTree = "<group>"; };
+		A543F22520A4A3C700352527 /* gates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gates.h; sourceTree = "<group>"; };
+		A543F22620A4A3C700352527 /* qpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qpp.h; sourceTree = "<group>"; };
+		A543F22720A4A3C700352527 /* input_output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = input_output.h; sourceTree = "<group>"; };
+		A543F22820A4A3C700352527 /* number_theory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = number_theory.h; sourceTree = "<group>"; };
+		A543F22B20A4A3C700352527 /* iomanip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iomanip.h; sourceTree = "<group>"; };
+		A543F22C20A4A3C700352527 /* singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = singleton.h; sourceTree = "<group>"; };
+		A543F22D20A4A3C700352527 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		A543F22E20A4A3C700352527 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		A543F22F20A4A3C700352527 /* entropies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entropies.h; sourceTree = "<group>"; };
+		A543F23020A4A3C700352527 /* instruments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = instruments.h; sourceTree = "<group>"; };
+		A543F23120A4A3C700352527 /* statistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = statistics.h; sourceTree = "<group>"; };
+		A543F23320A4A3C700352527 /* matlab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matlab.h; sourceTree = "<group>"; };
+		A543F23420A4A3C700352527 /* functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = functions.h; sourceTree = "<group>"; };
+		A543F23520A4A3C700352527 /* entanglement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entanglement.h; sourceTree = "<group>"; };
+		A543F23620A4A3C700352527 /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
+		A543F25320A4D86500352527 /* QuantumSwiftTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuantumSwiftTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		A543F25920A4DA5900352527 /* ObjCqpp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCqpp.h; sourceTree = "<group>"; };
+		A543F25A20A4DA5900352527 /* ObjCqpp.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjCqpp.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				A543F1FF20A4A28900352527 /* QuantumSwift.h */,
+				A543F21620A4A39B00352527 /* Quantum++ */,
 				A543F20020A4A28900352527 /* Info.plist */,
 			);
 			path = QuantumSwift;
@@ -86,6 +145,99 @@
 			path = QuantumSwiftTests;
 			sourceTree = "<group>";
 		};
+		A543F21620A4A39B00352527 /* Quantum++ */ = {
+			isa = PBXGroup;
+			children = (
+				A543F25220A4D80F00352527 /* Objc */,
+				A543F21720A4A3C700352527 /* include */,
+			);
+			path = "Quantum++";
+			sourceTree = "<group>";
+		};
+		A543F21720A4A3C700352527 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A543F21820A4A3C700352527 /* experimental */,
+				A543F21A20A4A3C700352527 /* traits.h */,
+				A543F21B20A4A3C700352527 /* operations.h */,
+				A543F21C20A4A3C700352527 /* types.h */,
+				A543F21D20A4A3C700352527 /* classes */,
+				A543F22620A4A3C700352527 /* qpp.h */,
+				A543F22720A4A3C700352527 /* input_output.h */,
+				A543F22820A4A3C700352527 /* number_theory.h */,
+				A543F22920A4A3C700352527 /* internal */,
+				A543F22E20A4A3C700352527 /* constants.h */,
+				A543F22F20A4A3C700352527 /* entropies.h */,
+				A543F23020A4A3C700352527 /* instruments.h */,
+				A543F23120A4A3C700352527 /* statistics.h */,
+				A543F23220A4A3C700352527 /* MATLAB */,
+				A543F23420A4A3C700352527 /* functions.h */,
+				A543F23520A4A3C700352527 /* entanglement.h */,
+				A543F23620A4A3C700352527 /* random.h */,
+			);
+			name = include;
+			path = ../../../../include;
+			sourceTree = "<group>";
+		};
+		A543F21820A4A3C700352527 /* experimental */ = {
+			isa = PBXGroup;
+			children = (
+				A543F21920A4A3C700352527 /* experimental.h */,
+			);
+			path = experimental;
+			sourceTree = "<group>";
+		};
+		A543F21D20A4A3C700352527 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				A543F21E20A4A3C700352527 /* codes.h */,
+				A543F21F20A4A3C700352527 /* random_devices.h */,
+				A543F22020A4A3C700352527 /* timer.h */,
+				A543F22120A4A3C700352527 /* idisplay.h */,
+				A543F22220A4A3C700352527 /* states.h */,
+				A543F22320A4A3C700352527 /* init.h */,
+				A543F22420A4A3C700352527 /* exception.h */,
+				A543F22520A4A3C700352527 /* gates.h */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		A543F22920A4A3C700352527 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				A543F22A20A4A3C700352527 /* classes */,
+				A543F22D20A4A3C700352527 /* util.h */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		A543F22A20A4A3C700352527 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				A543F22B20A4A3C700352527 /* iomanip.h */,
+				A543F22C20A4A3C700352527 /* singleton.h */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		A543F23220A4A3C700352527 /* MATLAB */ = {
+			isa = PBXGroup;
+			children = (
+				A543F23320A4A3C700352527 /* matlab.h */,
+			);
+			path = MATLAB;
+			sourceTree = "<group>";
+		};
+		A543F25220A4D80F00352527 /* Objc */ = {
+			isa = PBXGroup;
+			children = (
+				A543F25320A4D86500352527 /* QuantumSwiftTests-Bridging-Header.h */,
+				A543F25920A4DA5900352527 /* ObjCqpp.h */,
+				A543F25A20A4DA5900352527 /* ObjCqpp.mm */,
+			);
+			path = Objc;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +245,34 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A543F24220A4A3C700352527 /* gates.h in Headers */,
+				A543F24B20A4A3C700352527 /* instruments.h in Headers */,
+				A543F25020A4A3C700352527 /* random.h in Headers */,
+				A543F23720A4A3C700352527 /* experimental.h in Headers */,
+				A543F24320A4A3C700352527 /* qpp.h in Headers */,
+				A543F23E20A4A3C700352527 /* idisplay.h in Headers */,
+				A543F24820A4A3C700352527 /* util.h in Headers */,
+				A543F24420A4A3C700352527 /* input_output.h in Headers */,
+				A543F24E20A4A3C700352527 /* functions.h in Headers */,
+				A543F23820A4A3C700352527 /* traits.h in Headers */,
+				A543F23920A4A3C700352527 /* operations.h in Headers */,
+				A543F24020A4A3C700352527 /* init.h in Headers */,
+				A543F24A20A4A3C700352527 /* entropies.h in Headers */,
+				A543F24620A4A3C700352527 /* iomanip.h in Headers */,
+				A543F25B20A4DA5900352527 /* ObjCqpp.h in Headers */,
+				A543F24920A4A3C700352527 /* constants.h in Headers */,
+				A543F24520A4A3C700352527 /* number_theory.h in Headers */,
+				A543F23B20A4A3C700352527 /* codes.h in Headers */,
+				A543F23A20A4A3C700352527 /* types.h in Headers */,
+				A543F24720A4A3C700352527 /* singleton.h in Headers */,
+				A543F23F20A4A3C700352527 /* states.h in Headers */,
+				A543F24120A4A3C700352527 /* exception.h in Headers */,
+				A543F24C20A4A3C700352527 /* statistics.h in Headers */,
+				A543F23C20A4A3C700352527 /* random_devices.h in Headers */,
+				A543F23D20A4A3C700352527 /* timer.h in Headers */,
 				A543F20D20A4A28900352527 /* QuantumSwift.h in Headers */,
+				A543F24F20A4A3C700352527 /* entanglement.h in Headers */,
+				A543F24D20A4A3C700352527 /* matlab.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +330,7 @@
 					};
 					A543F20420A4A28900352527 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -194,6 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A543F25C20A4DA5900352527 /* ObjCqpp.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A543F20B20A4A28900352527 /* QuantumSwiftTests.swift in Sources */,
+				A543F25D20A4DA5900352527 /* ObjCqpp.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,12 +528,21 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../include\"/**",
+					/usr/local/include/eigen3,
+				);
 				INFOPLIST_FILE = QuantumSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-I",
+					"\"/usr/local/include/eigen3/\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wojciech.charysz.QuantumSwift;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -371,12 +562,21 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../include\"/**",
+					/usr/local/include/eigen3,
+				);
 				INFOPLIST_FILE = QuantumSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-I",
+					"\"/usr/local/include/eigen3/\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wojciech.charysz.QuantumSwift;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -388,6 +588,7 @@
 		A543F21420A4A28900352527 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = QuantumSwiftTests/Info.plist;
@@ -398,6 +599,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wojciech.charysz.QuantumSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QuantumSwift/Quantum++/Objc/QuantumSwiftTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -405,6 +608,7 @@
 		A543F21520A4A28900352527 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = QuantumSwiftTests/Info.plist;
@@ -415,6 +619,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wojciech.charysz.QuantumSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QuantumSwift/Quantum++/Objc/QuantumSwiftTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
