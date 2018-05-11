@@ -10,4 +10,6 @@
 
 @interface ObjCqpp : NSObject
 
+- (void)minimal;
+
 @end

@@ -11,4 +11,10 @@
 
 @implementation ObjCqpp
 
+- (void)minimal {
+    
+    qpp::ket zero = qpp::st.z0;
+    NSLog(@"Hello Quantum++!\nThis is the |0> state:\n");
+}
+
 @end
