@@ -25,7 +25,10 @@ class QuantumSwiftTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         let qpp = ObjCqpp()
-        qpp.minimal()
+        //qpp.minimal()
+        //qpp.qubitsRequired(for: 65537)
+        //qpp.shor(for: 17)
+        qpp.grover(for: 27)
     }
     
     func testPerformanceExample() {

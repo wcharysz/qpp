@@ -11,5 +11,8 @@
 @interface ObjCqpp : NSObject
 
 - (void)minimal;
+- (nullable NSArray<NSNumber *> *)shorFor:(NSInteger)number;
+- (NSUInteger)qubitsRequiredFor:(NSUInteger)number;
+- (void)groverFor:(NSUInteger)number;
 
 @end

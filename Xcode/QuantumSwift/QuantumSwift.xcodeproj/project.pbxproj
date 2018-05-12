@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A51B82E520A60A9E00D0C226 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51B82E420A60A9E00D0C226 /* GCD.swift */; };
+		A51B82E720A60E8300D0C226 /* UIntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51B82E620A60E8300D0C226 /* UIntExtension.swift */; };
 		A543F20620A4A28900352527 /* QuantumSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A543F1FC20A4A28900352527 /* QuantumSwift.framework */; };
 		A543F20B20A4A28900352527 /* QuantumSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A543F20A20A4A28900352527 /* QuantumSwiftTests.swift */; };
 		A543F20D20A4A28900352527 /* QuantumSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F1FF20A4A28900352527 /* QuantumSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -52,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A51B82E420A60A9E00D0C226 /* GCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
+		A51B82E620A60E8300D0C226 /* UIntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIntExtension.swift; sourceTree = "<group>"; };
 		A543F1FC20A4A28900352527 /* QuantumSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuantumSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A543F1FF20A4A28900352527 /* QuantumSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuantumSwift.h; sourceTree = "<group>"; };
 		A543F20020A4A28900352527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				A543F1FF20A4A28900352527 /* QuantumSwift.h */,
+				A51B82E420A60A9E00D0C226 /* GCD.swift */,
+				A51B82E620A60E8300D0C226 /* UIntExtension.swift */,
 				A543F21620A4A39B00352527 /* Quantum++ */,
 				A543F20020A4A28900352527 /* Info.plist */,
 			);
@@ -327,6 +333,7 @@
 				TargetAttributes = {
 					A543F1FB20A4A28900352527 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 					A543F20420A4A28900352527 = {
 						CreatedOnToolsVersion = 9.3;
@@ -374,6 +381,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A51B82E720A60E8300D0C226 /* UIntExtension.swift in Sources */,
+				A51B82E520A60A9E00D0C226 /* GCD.swift in Sources */,
 				A543F25C20A4DA5900352527 /* ObjCqpp.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,6 +529,7 @@
 		A543F21120A4A28900352527 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -547,6 +557,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wojciech.charysz.QuantumSwift;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -554,6 +565,7 @@
 		A543F21220A4A28900352527 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -588,6 +600,7 @@
 		A543F21420A4A28900352527 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -612,6 +625,7 @@
 		A543F21520A4A28900352527 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
