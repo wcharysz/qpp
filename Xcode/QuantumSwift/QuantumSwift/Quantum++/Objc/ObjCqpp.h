@@ -13,6 +13,6 @@
 - (void)minimal;
 - (nullable NSArray<NSNumber *> *)shorFor:(NSInteger)number;
 - (NSUInteger)qubitsRequiredFor:(NSUInteger)number;
-- (void)groverFor:(NSUInteger)number;
+- (void)groverFor:(NSUInteger)number inArray:(nonnull NSArray<NSNumber  *> *)array;
 
 @end

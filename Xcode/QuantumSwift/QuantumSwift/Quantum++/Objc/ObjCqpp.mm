@@ -137,6 +137,7 @@
 }
 
 - (NSUInteger)gcdFor:(NSUInteger)u andNumber:(NSUInteger)v {
+    using namespace std;
     
     if (u == 0) {
         return v;
@@ -150,27 +151,42 @@
     NSInteger b = ABS(v);
     
     if (b > a) {
-        std::swap(a,b);
+        swap(a,b);
     }
     
     while (b > 0) {
-        std::tie(a, b) = std::make_tuple(b, a % b);
+        tie(a, b) = make_tuple(b, a % b);
     }
     
     return a;
 }
 
-- (void)groverFor:(NSUInteger)number {
+- (void)groverFor:(NSUInteger)number inArray:(nonnull NSArray<NSNumber  *> *)array {
     using namespace qpp;
     
-    idx numberOfQubits = [self qubitsRequiredFor:number];
-    std::vector<qpp::idx> dims(numberOfQubits, 2);
+    //idx numberOfQubits = [self qubitsRequiredFor:number];
+    idx numberOfQubits = array.count; //[self qubitsRequiredFor:array.count];
+    
+    // local dimensions
+    
+    std::vector<idx> dims;
+    for (NSNumber *number in array) {
+        dims.push_back(number.longValue);
+    }
+    
+    //std::vector<idx> dims(numberOfQubits, 2);
     
     // number of elements in the database
     idx N = std::round(std::pow(2, numberOfQubits));
+    //idx N = array.count;
     
     // mark an element randomly
     idx marked = randidx(0, N - 1);
+    NSLog(@"Marked state: %lu", marked);
+    //std::cout << ">> Marked state: " << marked << " -> ";
+    //std::cout << disp(n2multiidx(marked, dims), " ") << '\n';
+    //idx marked = number;
+    //idx marked = randi
     
     // computational |0>^\otimes n
     ket psi = mket(n2multiidx(0, dims));

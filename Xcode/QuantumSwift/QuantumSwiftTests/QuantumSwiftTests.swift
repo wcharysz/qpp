@@ -28,7 +28,8 @@ class QuantumSwiftTests: XCTestCase {
         //qpp.minimal()
         //qpp.qubitsRequired(for: 65537)
         //qpp.shor(for: 17)
-        qpp.grover(for: 27)
+        //qpp.grover(for: 27)
+        qpp.grover(for: 27, in: [1, 2, 3, 4, 5, 10, 17, 27, 30])
     }
     
     func testPerformanceExample() {
