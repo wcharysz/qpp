@@ -9,9 +9,10 @@
 #import <Foundation/Foundation.h>
 #import <qpp.h>
 
-@interface QObject : NSObject
+@interface QObject<__covariant ObjectType: NSObject *> : NSObject
 
 @property (nonatomic, assign) qpp::ket zero;
+@property (nonatomic, copy) ObjectType value;
 //@property (nonatomic, copy) (BOOL (NS_NOESCAPE ^)(ObjectType obj, NSUInteger idx, BOOL *stop))predicate;
 
 @end

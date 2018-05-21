@@ -12,6 +12,9 @@
 		A51B82ED20AC54CD00D0C226 /* QObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A51B82EB20AC54CD00D0C226 /* QObject.h */; };
 		A51B82EE20AC54CD00D0C226 /* QObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = A51B82EC20AC54CD00D0C226 /* QObject.mm */; };
 		A51B82EF20AC54CD00D0C226 /* QObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = A51B82EC20AC54CD00D0C226 /* QObject.mm */; };
+		A51B82F220B060A500D0C226 /* QNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = A51B82F020B060A400D0C226 /* QNumber.h */; };
+		A51B82F320B060A500D0C226 /* QNumber.mm in Sources */ = {isa = PBXBuildFile; fileRef = A51B82F120B060A400D0C226 /* QNumber.mm */; };
+		A51B82F420B060A500D0C226 /* QNumber.mm in Sources */ = {isa = PBXBuildFile; fileRef = A51B82F120B060A400D0C226 /* QNumber.mm */; };
 		A543F20620A4A28900352527 /* QuantumSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A543F1FC20A4A28900352527 /* QuantumSwift.framework */; };
 		A543F20B20A4A28900352527 /* QuantumSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A543F20A20A4A28900352527 /* QuantumSwiftTests.swift */; };
 		A543F20D20A4A28900352527 /* QuantumSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F1FF20A4A28900352527 /* QuantumSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -61,6 +64,8 @@
 		A51B82E620A60E8300D0C226 /* UIntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIntExtension.swift; sourceTree = "<group>"; };
 		A51B82EB20AC54CD00D0C226 /* QObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QObject.h; sourceTree = "<group>"; };
 		A51B82EC20AC54CD00D0C226 /* QObject.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = QObject.mm; sourceTree = "<group>"; };
+		A51B82F020B060A400D0C226 /* QNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QNumber.h; sourceTree = "<group>"; };
+		A51B82F120B060A400D0C226 /* QNumber.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = QNumber.mm; sourceTree = "<group>"; };
 		A543F1FC20A4A28900352527 /* QuantumSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuantumSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A543F1FF20A4A28900352527 /* QuantumSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuantumSwift.h; sourceTree = "<group>"; };
 		A543F20020A4A28900352527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -247,6 +252,8 @@
 				A543F25A20A4DA5900352527 /* ObjCqpp.mm */,
 				A51B82EB20AC54CD00D0C226 /* QObject.h */,
 				A51B82EC20AC54CD00D0C226 /* QObject.mm */,
+				A51B82F020B060A400D0C226 /* QNumber.h */,
+				A51B82F120B060A400D0C226 /* QNumber.mm */,
 			);
 			path = Objc;
 			sourceTree = "<group>";
@@ -269,6 +276,7 @@
 				A543F24420A4A3C700352527 /* input_output.h in Headers */,
 				A543F24E20A4A3C700352527 /* functions.h in Headers */,
 				A543F23820A4A3C700352527 /* traits.h in Headers */,
+				A51B82F220B060A500D0C226 /* QNumber.h in Headers */,
 				A543F23920A4A3C700352527 /* operations.h in Headers */,
 				A543F24020A4A3C700352527 /* init.h in Headers */,
 				A543F24A20A4A3C700352527 /* entropies.h in Headers */,
@@ -390,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A51B82EE20AC54CD00D0C226 /* QObject.mm in Sources */,
+				A51B82F320B060A500D0C226 /* QNumber.mm in Sources */,
 				A51B82E720A60E8300D0C226 /* UIntExtension.swift in Sources */,
 				A51B82E520A60A9E00D0C226 /* GCD.swift in Sources */,
 				A543F25C20A4DA5900352527 /* ObjCqpp.mm in Sources */,
@@ -402,6 +411,7 @@
 			files = (
 				A543F20B20A4A28900352527 /* QuantumSwiftTests.swift in Sources */,
 				A543F25D20A4DA5900352527 /* ObjCqpp.mm in Sources */,
+				A51B82F420B060A500D0C226 /* QNumber.mm in Sources */,
 				A51B82EF20AC54CD00D0C226 /* QObject.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -540,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -576,6 +587,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -612,11 +624,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../../include\"/**",
 					/usr/local/include/eigen3,
+					"\"$(SRCROOT)/../../include\"/**",
 				);
 				INFOPLIST_FILE = QuantumSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -637,11 +650,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../../include\"/**",
 					/usr/local/include/eigen3,
+					"\"$(SRCROOT)/../../include\"/**",
 				);
 				INFOPLIST_FILE = QuantumSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
