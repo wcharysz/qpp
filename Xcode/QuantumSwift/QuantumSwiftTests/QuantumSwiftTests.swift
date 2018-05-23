@@ -34,7 +34,6 @@ class QuantumSwiftTests: XCTestCase {
     
     func testQNumbers() {
         let number = QNumber(integer: 42)
-        number.binaryFromInteger()
     }
     
     func testPerformanceExample() {

@@ -11,6 +11,5 @@
 @interface QNumber : NSObject
 
 - (nonnull instancetype)initWithInteger:(NSInteger)value;
-- (void)binaryFromInteger;
 
 @end
