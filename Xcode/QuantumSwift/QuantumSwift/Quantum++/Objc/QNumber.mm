@@ -30,7 +30,7 @@
     return self;
 }
 
-- (int)numberOfBits:(NSInteger)number {
++ (int)numberOfBits:(NSInteger)number {
     int numberOfBits = sizeof(NSInteger) * CHAR_BIT;
     numberOfBits -= __builtin_clzl(number);
     
@@ -41,7 +41,7 @@
     using namespace qpp;
     
     //Count bits:
-    int numberOfBits = [self numberOfBits:value];
+    int numberOfBits = [QNumber numberOfBits:value];
     int binaryDigit = 1;
     std::vector<idx> bits;
     

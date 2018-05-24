@@ -7,6 +7,7 @@
 //
 
 #import "ObjCqpp.h"
+#import "QNumber.h"
 #import <qpp.h>
 
 @implementation ObjCqpp
@@ -159,6 +160,26 @@
     }
     
     return a;
+}
+
+- (qpp::ket)psiFromInteger:(NSInteger)value {
+    using namespace qpp;
+    
+    //Count bits:
+    int numberOfBits = [QNumber numberOfBits:value];
+    int binaryDigit = 1;
+    std::vector<idx> bits;
+    
+    do {
+        // Int as Binary bit
+        bits.push_back(value & binaryDigit ? 1 : 0);
+        --numberOfBits;
+        //Move to the next bit
+        binaryDigit <<= 1;
+        
+    } while (numberOfBits);
+        
+    return mket(bits);
 }
 
 - (void)groverFor:(NSUInteger)number inArray:(nonnull NSArray<NSNumber  *> *)array {
