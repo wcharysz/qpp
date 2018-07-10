@@ -29,11 +29,7 @@ class GCD: NSObject {
         while (b > 0) {
             (a, b) = (b, a % b)
         }
-        let array: [Int] = Array()
-        array.map { (element) -> UInt in
-            return UInt(element)
-        }
-        
+
         return UInt(a)
     }
 }

@@ -33,13 +33,18 @@
     using namespace std;
     
     //Count bits:
-    int leadingZeros = __builtin_clzl(self.integerValue);
     int numberOfBits = sizeof(NSInteger) * CHAR_BIT;
-    numberOfBits -= leadingZeros;
+    numberOfBits -= __builtin_clzl(self.integerValue);
     int binaryDigit = 1;
     
     do {
         // Int as Binary bit: 1 or 0
+        if (self.integerValue & binaryDigit) {
+            //Bit value 1
+        } else {
+            //Bit value 0
+        }
+        
         short binaryBit = self.integerValue & binaryDigit ? 1 : 0;
         NSLog(@"binaryBit %d", binaryBit);
         --numberOfBits;
