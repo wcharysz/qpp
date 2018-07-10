@@ -32,11 +32,6 @@ class QuantumSwiftTests: XCTestCase {
         qpp.grover(for: 27, in: [1, 2, 3, 4, 5, 10, 17, 27, 30])
     }
     
-    func testQNumbers() {
-        let number = QNumber(integer: 42)
-        number.binaryFromInteger()
-    }
-    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {

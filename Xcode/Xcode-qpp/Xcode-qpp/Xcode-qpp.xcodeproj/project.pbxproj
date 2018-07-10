@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A52A0E2820B8A4AF007AC0CD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A52A0E2720B8A4AF007AC0CD /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A52A0E2220B8A4AF007AC0CD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A52A0E2420B8A4AF007AC0CD /* Xcode-qpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Xcode-qpp"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52A0E2720B8A4AF007AC0CD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A52A0E3020B8A643007AC0CD /* experimental.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = experimental.h; sourceTree = "<group>"; };
+		A52A0E3120B8A643007AC0CD /* traits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = traits.h; sourceTree = "<group>"; };
+		A52A0E3220B8A643007AC0CD /* operations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = operations.h; sourceTree = "<group>"; };
+		A52A0E3320B8A643007AC0CD /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		A52A0E3520B8A643007AC0CD /* codes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codes.h; sourceTree = "<group>"; };
+		A52A0E3620B8A643007AC0CD /* random_devices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random_devices.h; sourceTree = "<group>"; };
+		A52A0E3720B8A643007AC0CD /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
+		A52A0E3820B8A643007AC0CD /* idisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idisplay.h; sourceTree = "<group>"; };
+		A52A0E3920B8A643007AC0CD /* states.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = states.h; sourceTree = "<group>"; };
+		A52A0E3A20B8A643007AC0CD /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = init.h; sourceTree = "<group>"; };
+		A52A0E3B20B8A643007AC0CD /* exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exception.h; sourceTree = "<group>"; };
+		A52A0E3C20B8A643007AC0CD /* gates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gates.h; sourceTree = "<group>"; };
+		A52A0E3D20B8A643007AC0CD /* qpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qpp.h; sourceTree = "<group>"; };
+		A52A0E3E20B8A643007AC0CD /* input_output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = input_output.h; sourceTree = "<group>"; };
+		A52A0E3F20B8A643007AC0CD /* number_theory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = number_theory.h; sourceTree = "<group>"; };
+		A52A0E4220B8A643007AC0CD /* iomanip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iomanip.h; sourceTree = "<group>"; };
+		A52A0E4320B8A643007AC0CD /* singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = singleton.h; sourceTree = "<group>"; };
+		A52A0E4420B8A643007AC0CD /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		A52A0E4520B8A643007AC0CD /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		A52A0E4620B8A643007AC0CD /* entropies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entropies.h; sourceTree = "<group>"; };
+		A52A0E4720B8A643007AC0CD /* instruments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = instruments.h; sourceTree = "<group>"; };
+		A52A0E4820B8A643007AC0CD /* statistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = statistics.h; sourceTree = "<group>"; };
+		A52A0E4A20B8A644007AC0CD /* matlab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matlab.h; sourceTree = "<group>"; };
+		A52A0E4B20B8A644007AC0CD /* functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = functions.h; sourceTree = "<group>"; };
+		A52A0E4C20B8A644007AC0CD /* entanglement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entanglement.h; sourceTree = "<group>"; };
+		A52A0E4D20B8A644007AC0CD /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A52A0E2120B8A4AF007AC0CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A52A0E1B20B8A4AF007AC0CD = {
+			isa = PBXGroup;
+			children = (
+				A52A0E2620B8A4AF007AC0CD /* Xcode-qpp */,
+				A52A0E2520B8A4AF007AC0CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A52A0E2520B8A4AF007AC0CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A52A0E2420B8A4AF007AC0CD /* Xcode-qpp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A52A0E2620B8A4AF007AC0CD /* Xcode-qpp */ = {
+			isa = PBXGroup;
+			children = (
+				A52A0E2E20B8A643007AC0CD /* include */,
+				A52A0E2720B8A4AF007AC0CD /* main.cpp */,
+			);
+			path = "Xcode-qpp";
+			sourceTree = "<group>";
+		};
+		A52A0E2E20B8A643007AC0CD /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A52A0E2F20B8A643007AC0CD /* experimental */,
+				A52A0E3120B8A643007AC0CD /* traits.h */,
+				A52A0E3220B8A643007AC0CD /* operations.h */,
+				A52A0E3320B8A643007AC0CD /* types.h */,
+				A52A0E3420B8A643007AC0CD /* classes */,
+				A52A0E3D20B8A643007AC0CD /* qpp.h */,
+				A52A0E3E20B8A643007AC0CD /* input_output.h */,
+				A52A0E3F20B8A643007AC0CD /* number_theory.h */,
+				A52A0E4020B8A643007AC0CD /* internal */,
+				A52A0E4520B8A643007AC0CD /* constants.h */,
+				A52A0E4620B8A643007AC0CD /* entropies.h */,
+				A52A0E4720B8A643007AC0CD /* instruments.h */,
+				A52A0E4820B8A643007AC0CD /* statistics.h */,
+				A52A0E4920B8A643007AC0CD /* MATLAB */,
+				A52A0E4B20B8A644007AC0CD /* functions.h */,
+				A52A0E4C20B8A644007AC0CD /* entanglement.h */,
+				A52A0E4D20B8A644007AC0CD /* random.h */,
+			);
+			name = include;
+			path = ../../../../include;
+			sourceTree = "<group>";
+		};
+		A52A0E2F20B8A643007AC0CD /* experimental */ = {
+			isa = PBXGroup;
+			children = (
+				A52A0E3020B8A643007AC0CD /* experimental.h */,
+			);
+			path = experimental;
+			sourceTree = "<group>";
+		};
+		A52A0E3420B8A643007AC0CD /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				A52A0E3520B8A643007AC0CD /* codes.h */,
+				A52A0E3620B8A643007AC0CD /* random_devices.h */,
+				A52A0E3720B8A643007AC0CD /* timer.h */,
+				A52A0E3820B8A643007AC0CD /* idisplay.h */,
+				A52A0E3920B8A643007AC0CD /* states.h */,
+				A52A0E3A20B8A643007AC0CD /* init.h */,
+				A52A0E3B20B8A643007AC0CD /* exception.h */,
+				A52A0E3C20B8A643007AC0CD /* gates.h */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		A52A0E4020B8A643007AC0CD /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				A52A0E4120B8A643007AC0CD /* classes */,
+				A52A0E4420B8A643007AC0CD /* util.h */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		A52A0E4120B8A643007AC0CD /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				A52A0E4220B8A643007AC0CD /* iomanip.h */,
+				A52A0E4320B8A643007AC0CD /* singleton.h */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		A52A0E4920B8A643007AC0CD /* MATLAB */ = {
+			isa = PBXGroup;
+			children = (
+				A52A0E4A20B8A644007AC0CD /* matlab.h */,
+			);
+			path = MATLAB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A52A0E2320B8A4AF007AC0CD /* Xcode-qpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A52A0E2B20B8A4AF007AC0CD /* Build configuration list for PBXNativeTarget "Xcode-qpp" */;
+			buildPhases = (
+				A52A0E2020B8A4AF007AC0CD /* Sources */,
+				A52A0E2120B8A4AF007AC0CD /* Frameworks */,
+				A52A0E2220B8A4AF007AC0CD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Xcode-qpp";
+			productName = "Xcode-qpp";
+			productReference = A52A0E2420B8A4AF007AC0CD /* Xcode-qpp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A52A0E1C20B8A4AF007AC0CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Wojciech Charysz";
+				TargetAttributes = {
+					A52A0E2320B8A4AF007AC0CD = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = A52A0E1F20B8A4AF007AC0CD /* Build configuration list for PBXProject "Xcode-qpp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A52A0E1B20B8A4AF007AC0CD;
+			productRefGroup = A52A0E2520B8A4AF007AC0CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A52A0E2320B8A4AF007AC0CD /* Xcode-qpp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A52A0E2020B8A4AF007AC0CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52A0E2820B8A4AF007AC0CD /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A52A0E2920B8A4AF007AC0CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A52A0E2A20B8A4AF007AC0CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A52A0E2C20B8A4AF007AC0CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include/eigen3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A52A0E2D20B8A4AF007AC0CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include/eigen3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A52A0E1F20B8A4AF007AC0CD /* Build configuration list for PBXProject "Xcode-qpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52A0E2920B8A4AF007AC0CD /* Debug */,
+				A52A0E2A20B8A4AF007AC0CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A52A0E2B20B8A4AF007AC0CD /* Build configuration list for PBXNativeTarget "Xcode-qpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52A0E2C20B8A4AF007AC0CD /* Debug */,
+				A52A0E2D20B8A4AF007AC0CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A52A0E1C20B8A4AF007AC0CD /* Project object */;
+}

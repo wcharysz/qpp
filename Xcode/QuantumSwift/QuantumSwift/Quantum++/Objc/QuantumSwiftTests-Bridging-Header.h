@@ -3,4 +3,3 @@
 //
 
 #import "ObjCqpp.h"
-#import "QNumber.h"

@@ -29,7 +29,7 @@ class GCD: NSObject {
         while (b > 0) {
             (a, b) = (b, a % b)
         }
-
+        
         return UInt(a)
     }
 }

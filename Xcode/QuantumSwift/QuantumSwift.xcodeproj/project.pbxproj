@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		A51B82E520A60A9E00D0C226 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51B82E420A60A9E00D0C226 /* GCD.swift */; };
 		A51B82E720A60E8300D0C226 /* UIntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51B82E620A60E8300D0C226 /* UIntExtension.swift */; };
-		A51B82ED20AC54CD00D0C226 /* QObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A51B82EB20AC54CD00D0C226 /* QObject.h */; };
-		A51B82EE20AC54CD00D0C226 /* QObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = A51B82EC20AC54CD00D0C226 /* QObject.mm */; };
-		A51B82EF20AC54CD00D0C226 /* QObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = A51B82EC20AC54CD00D0C226 /* QObject.mm */; };
 		A51B82F220B060A500D0C226 /* QNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = A51B82F020B060A400D0C226 /* QNumber.h */; };
 		A51B82F320B060A500D0C226 /* QNumber.mm in Sources */ = {isa = PBXBuildFile; fileRef = A51B82F120B060A400D0C226 /* QNumber.mm */; };
 		A51B82F420B060A500D0C226 /* QNumber.mm in Sources */ = {isa = PBXBuildFile; fileRef = A51B82F120B060A400D0C226 /* QNumber.mm */; };
+		A52A0E5020B92C70007AC0CD /* Oracle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A52A0E4E20B92C70007AC0CD /* Oracle.cpp */; };
+		A52A0E5120B92C70007AC0CD /* Oracle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A52A0E4E20B92C70007AC0CD /* Oracle.cpp */; };
+		A52A0E5220B92C70007AC0CD /* Oracle.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A52A0E4F20B92C70007AC0CD /* Oracle.hpp */; };
+		A52A0E5520BC8DBA007AC0CD /* QInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A52A0E5320BC8DBA007AC0CD /* QInteger.cpp */; };
+		A52A0E5620BC8DBA007AC0CD /* QInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A52A0E5320BC8DBA007AC0CD /* QInteger.cpp */; };
+		A52A0E5720BC8DBA007AC0CD /* QInteger.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A52A0E5420BC8DBA007AC0CD /* QInteger.hpp */; };
 		A543F20620A4A28900352527 /* QuantumSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A543F1FC20A4A28900352527 /* QuantumSwift.framework */; };
 		A543F20B20A4A28900352527 /* QuantumSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A543F20A20A4A28900352527 /* QuantumSwiftTests.swift */; };
 		A543F20D20A4A28900352527 /* QuantumSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = A543F1FF20A4A28900352527 /* QuantumSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -62,42 +65,44 @@
 /* Begin PBXFileReference section */
 		A51B82E420A60A9E00D0C226 /* GCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
 		A51B82E620A60E8300D0C226 /* UIntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIntExtension.swift; sourceTree = "<group>"; };
-		A51B82EB20AC54CD00D0C226 /* QObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QObject.h; sourceTree = "<group>"; };
-		A51B82EC20AC54CD00D0C226 /* QObject.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = QObject.mm; sourceTree = "<group>"; };
 		A51B82F020B060A400D0C226 /* QNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QNumber.h; sourceTree = "<group>"; };
 		A51B82F120B060A400D0C226 /* QNumber.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = QNumber.mm; sourceTree = "<group>"; };
+		A52A0E4E20B92C70007AC0CD /* Oracle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Oracle.cpp; sourceTree = "<group>"; };
+		A52A0E4F20B92C70007AC0CD /* Oracle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Oracle.hpp; sourceTree = "<group>"; };
+		A52A0E5320BC8DBA007AC0CD /* QInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QInteger.cpp; sourceTree = "<group>"; };
+		A52A0E5420BC8DBA007AC0CD /* QInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = QInteger.hpp; sourceTree = "<group>"; };
 		A543F1FC20A4A28900352527 /* QuantumSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuantumSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A543F1FF20A4A28900352527 /* QuantumSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuantumSwift.h; sourceTree = "<group>"; };
 		A543F20020A4A28900352527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A543F20520A4A28900352527 /* QuantumSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuantumSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A543F20A20A4A28900352527 /* QuantumSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumSwiftTests.swift; sourceTree = "<group>"; };
 		A543F20C20A4A28900352527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A543F21920A4A3C700352527 /* experimental.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = experimental.h; sourceTree = "<group>"; };
-		A543F21A20A4A3C700352527 /* traits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = traits.h; sourceTree = "<group>"; };
-		A543F21B20A4A3C700352527 /* operations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = operations.h; sourceTree = "<group>"; };
-		A543F21C20A4A3C700352527 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
-		A543F21E20A4A3C700352527 /* codes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codes.h; sourceTree = "<group>"; };
-		A543F21F20A4A3C700352527 /* random_devices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random_devices.h; sourceTree = "<group>"; };
-		A543F22020A4A3C700352527 /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
-		A543F22120A4A3C700352527 /* idisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idisplay.h; sourceTree = "<group>"; };
-		A543F22220A4A3C700352527 /* states.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = states.h; sourceTree = "<group>"; };
-		A543F22320A4A3C700352527 /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = init.h; sourceTree = "<group>"; };
-		A543F22420A4A3C700352527 /* exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exception.h; sourceTree = "<group>"; };
-		A543F22520A4A3C700352527 /* gates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gates.h; sourceTree = "<group>"; };
-		A543F22620A4A3C700352527 /* qpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qpp.h; sourceTree = "<group>"; };
-		A543F22720A4A3C700352527 /* input_output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = input_output.h; sourceTree = "<group>"; };
-		A543F22820A4A3C700352527 /* number_theory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = number_theory.h; sourceTree = "<group>"; };
-		A543F22B20A4A3C700352527 /* iomanip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iomanip.h; sourceTree = "<group>"; };
-		A543F22C20A4A3C700352527 /* singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = singleton.h; sourceTree = "<group>"; };
-		A543F22D20A4A3C700352527 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
-		A543F22E20A4A3C700352527 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
-		A543F22F20A4A3C700352527 /* entropies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entropies.h; sourceTree = "<group>"; };
-		A543F23020A4A3C700352527 /* instruments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = instruments.h; sourceTree = "<group>"; };
-		A543F23120A4A3C700352527 /* statistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = statistics.h; sourceTree = "<group>"; };
-		A543F23320A4A3C700352527 /* matlab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matlab.h; sourceTree = "<group>"; };
-		A543F23420A4A3C700352527 /* functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = functions.h; sourceTree = "<group>"; };
-		A543F23520A4A3C700352527 /* entanglement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entanglement.h; sourceTree = "<group>"; };
-		A543F23620A4A3C700352527 /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
+		A543F21920A4A3C700352527 /* experimental.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = experimental.h; sourceTree = "<group>"; };
+		A543F21A20A4A3C700352527 /* traits.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = traits.h; sourceTree = "<group>"; };
+		A543F21B20A4A3C700352527 /* operations.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = operations.h; sourceTree = "<group>"; };
+		A543F21C20A4A3C700352527 /* types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = types.h; sourceTree = "<group>"; };
+		A543F21E20A4A3C700352527 /* codes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = codes.h; sourceTree = "<group>"; };
+		A543F21F20A4A3C700352527 /* random_devices.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = random_devices.h; sourceTree = "<group>"; };
+		A543F22020A4A3C700352527 /* timer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = timer.h; sourceTree = "<group>"; };
+		A543F22120A4A3C700352527 /* idisplay.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = idisplay.h; sourceTree = "<group>"; };
+		A543F22220A4A3C700352527 /* states.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = states.h; sourceTree = "<group>"; };
+		A543F22320A4A3C700352527 /* init.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = init.h; sourceTree = "<group>"; };
+		A543F22420A4A3C700352527 /* exception.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = exception.h; sourceTree = "<group>"; };
+		A543F22520A4A3C700352527 /* gates.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = gates.h; sourceTree = "<group>"; };
+		A543F22620A4A3C700352527 /* qpp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = qpp.h; sourceTree = "<group>"; };
+		A543F22720A4A3C700352527 /* input_output.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = input_output.h; sourceTree = "<group>"; };
+		A543F22820A4A3C700352527 /* number_theory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = number_theory.h; sourceTree = "<group>"; };
+		A543F22B20A4A3C700352527 /* iomanip.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = iomanip.h; sourceTree = "<group>"; };
+		A543F22C20A4A3C700352527 /* singleton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = singleton.h; sourceTree = "<group>"; };
+		A543F22D20A4A3C700352527 /* util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = util.h; sourceTree = "<group>"; };
+		A543F22E20A4A3C700352527 /* constants.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = constants.h; sourceTree = "<group>"; };
+		A543F22F20A4A3C700352527 /* entropies.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = entropies.h; sourceTree = "<group>"; };
+		A543F23020A4A3C700352527 /* instruments.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = instruments.h; sourceTree = "<group>"; };
+		A543F23120A4A3C700352527 /* statistics.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = statistics.h; sourceTree = "<group>"; };
+		A543F23320A4A3C700352527 /* matlab.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = matlab.h; sourceTree = "<group>"; };
+		A543F23420A4A3C700352527 /* functions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = functions.h; sourceTree = "<group>"; };
+		A543F23520A4A3C700352527 /* entanglement.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = entanglement.h; sourceTree = "<group>"; };
+		A543F23620A4A3C700352527 /* random.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = random.h; sourceTree = "<group>"; };
 		A543F25320A4D86500352527 /* QuantumSwiftTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuantumSwiftTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		A543F25920A4DA5900352527 /* ObjCqpp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCqpp.h; sourceTree = "<group>"; };
 		A543F25A20A4DA5900352527 /* ObjCqpp.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjCqpp.mm; sourceTree = "<group>"; };
@@ -250,10 +255,12 @@
 				A543F25320A4D86500352527 /* QuantumSwiftTests-Bridging-Header.h */,
 				A543F25920A4DA5900352527 /* ObjCqpp.h */,
 				A543F25A20A4DA5900352527 /* ObjCqpp.mm */,
-				A51B82EB20AC54CD00D0C226 /* QObject.h */,
-				A51B82EC20AC54CD00D0C226 /* QObject.mm */,
 				A51B82F020B060A400D0C226 /* QNumber.h */,
 				A51B82F120B060A400D0C226 /* QNumber.mm */,
+				A52A0E5420BC8DBA007AC0CD /* QInteger.hpp */,
+				A52A0E5320BC8DBA007AC0CD /* QInteger.cpp */,
+				A52A0E4F20B92C70007AC0CD /* Oracle.hpp */,
+				A52A0E4E20B92C70007AC0CD /* Oracle.cpp */,
 			);
 			path = Objc;
 			sourceTree = "<group>";
@@ -270,7 +277,7 @@
 				A543F25020A4A3C700352527 /* random.h in Headers */,
 				A543F23720A4A3C700352527 /* experimental.h in Headers */,
 				A543F24320A4A3C700352527 /* qpp.h in Headers */,
-				A51B82ED20AC54CD00D0C226 /* QObject.h in Headers */,
+				A52A0E5720BC8DBA007AC0CD /* QInteger.hpp in Headers */,
 				A543F23E20A4A3C700352527 /* idisplay.h in Headers */,
 				A543F24820A4A3C700352527 /* util.h in Headers */,
 				A543F24420A4A3C700352527 /* input_output.h in Headers */,
@@ -292,6 +299,7 @@
 				A543F24C20A4A3C700352527 /* statistics.h in Headers */,
 				A543F23C20A4A3C700352527 /* random_devices.h in Headers */,
 				A543F23D20A4A3C700352527 /* timer.h in Headers */,
+				A52A0E5220B92C70007AC0CD /* Oracle.hpp in Headers */,
 				A543F20D20A4A28900352527 /* QuantumSwift.h in Headers */,
 				A543F24F20A4A3C700352527 /* entanglement.h in Headers */,
 				A543F24D20A4A3C700352527 /* matlab.h in Headers */,
@@ -397,8 +405,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A51B82EE20AC54CD00D0C226 /* QObject.mm in Sources */,
+				A52A0E5520BC8DBA007AC0CD /* QInteger.cpp in Sources */,
 				A51B82F320B060A500D0C226 /* QNumber.mm in Sources */,
+				A52A0E5020B92C70007AC0CD /* Oracle.cpp in Sources */,
 				A51B82E720A60E8300D0C226 /* UIntExtension.swift in Sources */,
 				A51B82E520A60A9E00D0C226 /* GCD.swift in Sources */,
 				A543F25C20A4DA5900352527 /* ObjCqpp.mm in Sources */,
@@ -410,9 +419,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A543F20B20A4A28900352527 /* QuantumSwiftTests.swift in Sources */,
+				A52A0E5120B92C70007AC0CD /* Oracle.cpp in Sources */,
 				A543F25D20A4DA5900352527 /* ObjCqpp.mm in Sources */,
+				A52A0E5620BC8DBA007AC0CD /* QInteger.cpp in Sources */,
 				A51B82F420B060A500D0C226 /* QNumber.mm in Sources */,
-				A51B82EF20AC54CD00D0C226 /* QObject.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

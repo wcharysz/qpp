@@ -7,12 +7,12 @@
 //
 
 #import "QNumber.h"
-#import <bitset>
 #import <qpp.h>
 
 @interface QNumber()
 
 @property (nonatomic, assign) NSInteger integerValue;
+@property (nonatomic, assign) qpp::ket psi;
 
 @end
 
@@ -24,38 +24,39 @@
     
     if (self) {
         _integerValue = value;
+        _psi = [self psiFromInteger:value];
     }
     
     return self;
 }
 
-- (void)binaryFromInteger {
-    using namespace std;
++ (int)numberOfBits:(NSInteger)number {
+    int numberOfBits = sizeof(NSInteger) * CHAR_BIT;
+    numberOfBits -= __builtin_clzl(number);
+    
+    return numberOfBits;
+}
+
+- (qpp::ket)psiFromInteger:(NSInteger)value {
+    using namespace qpp;
     
     //Count bits:
-    int numberOfBits = sizeof(NSInteger) * CHAR_BIT;
-    numberOfBits -= __builtin_clzl(self.integerValue);
+    int numberOfBits = [QNumber numberOfBits:value];
     int binaryDigit = 1;
+    std::vector<idx> bits;
     
     do {
-        // Int as Binary bit: 1 or 0
-        if (self.integerValue & binaryDigit) {
-            //Bit value 1
-        } else {
-            //Bit value 0
-        }
-        
-        short binaryBit = self.integerValue & binaryDigit ? 1 : 0;
-        NSLog(@"binaryBit %d", binaryBit);
+        // Int as Binary bit
+        bits.push_back(value & binaryDigit ? 1 : 0);
         --numberOfBits;
         //Move to the next bit
         binaryDigit <<= 1;
         
     } while (numberOfBits);
     
-    using namespace qpp;
-    ket G0 = 000_ket;
-    ket G1 = 000_ket;
+    NSLog(@"END");
+    
+    return mket(bits);
 }
 
 @end
